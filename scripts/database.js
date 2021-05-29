@@ -71,7 +71,7 @@ export const setStyle = (id) => {
 
 export const addCustomOrder = () => {
     // Copy the current state of user choices
-    const newOrder = {...database.orderbuilder}
+    const newOrder = {...database.orderBuilder}
 
     // Add a new primary key to the object
     const lastIndex = database.customOrders.length - 1
